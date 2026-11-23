@@ -8,8 +8,8 @@ public class WeatherService {
     public static void main(String[] args) {
         String apiKey = "773328b1-51c3-4007-aa2c-cee6824773c8";
 
-        double lat = 55.75;
-        double lon = 37.62;
+        double lat = 49;
+        double lon = 40;
         int limit = 3;
 
         String url = "https://api.weather.yandex.ru/v2/forecast?lat=" + lat + "&lon=" + lon + "&limit=" + limit;
